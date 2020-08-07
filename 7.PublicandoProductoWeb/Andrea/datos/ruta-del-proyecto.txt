@@ -1,0 +1,9 @@
+Andrea -pizza
+
+x-special/nautilus-clipboard
+copy
+file:///home/anndiegonzalez/Documentos/Andrea/datos/mis-datos.txt
+
+
+
+
