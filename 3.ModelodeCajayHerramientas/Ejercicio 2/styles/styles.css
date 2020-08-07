@@ -1,0 +1,36 @@
+body {
+    background-color: antiquewhite;
+
+}
+
+.one {
+    display: block;
+    /* display: inline;
+    display: inline-block;
+    display: none; */
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+.two {
+    display: block;
+    /* display: inline;
+    display: inline-block;
+    display: none; */
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+
+}
+
+.three {
+    display: block;
+    /*   display: inline;
+    display: inline-block;
+    display: none; */
+    background-color: rgb(177, 233, 23);
+    width: 100px;
+    height: 100px;
+
+}

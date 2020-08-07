@@ -1,0 +1,22 @@
+body {
+    background-color: chocolate;
+}
+
+div {
+    background-color: cornsilk;
+    width: 100px;
+    height: 100px;
+}
+
+#imagen {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 50px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* La imagen ocupa un lugar en la caja mas centrada
+, ya no ocupa la totalidad del divwidth: 100px; */

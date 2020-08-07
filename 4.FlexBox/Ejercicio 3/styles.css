@@ -1,0 +1,33 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(230, 196, 230, 0.699);
+    
+}
+
+#main {
+    display: inline-flex;
+    width: 100%;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#main ul {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+

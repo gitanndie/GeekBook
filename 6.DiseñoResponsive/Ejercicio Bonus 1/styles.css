@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+/* .box {
+    background: red;
+    width: 35vw;
+    height: 35vh;
+} */
+
+@media (min-width:320px) {
+    .box {
+        background: blue;
+        width: 10vw;
+        height: 10vh;
+    }
+}
+
+@media (min-width:768px) {
+    .box {
+        background: blue;
+        width: 50;
+        height: 100;
+    }
+}
+
+@media (min-width:1140) {
+    .box {
+        background: red;
+        width: 100vw;
+        height: 80vh;
+    }
+}

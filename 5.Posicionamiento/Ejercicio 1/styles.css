@@ -1,0 +1,12 @@
+.lista {
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+    
+}
+
+.lista ul li {
+    display: inline-flex;
+    margin: 12px;
+}

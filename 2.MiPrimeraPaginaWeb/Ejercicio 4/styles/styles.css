@@ -1,0 +1,48 @@
+body {
+    font-size: 18px;
+    font-family: Tahoma;
+    color: rebeccapurple;
+    background-color: mediumpurple;
+    line-height: 1.5;
+}
+
+.text-link {
+    color: red;
+}
+
+.text-link:hover {
+    background-color: red;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.button {
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    display: inline-block;
+    margin-bottom: 1em;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.button--new {
+    background-color: rgb(35, 138, 9);
+}
+
+.button--rename {
+    background-color: rgb(14, 14, 139);
+}
+
+.button--delete {
+    background-color: rgb(126, 10, 10);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}

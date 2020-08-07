@@ -1,0 +1,48 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+}
+
+.one {
+    display: flex;
+    background-color: rgb(91, 144, 190);
+    width: 500px;
+    height: 500px;
+}
+
+.two {
+    display: flex;
+    background-color: rgb(91, 190, 177);
+    width: 500px;
+    height: 500px;
+}
+
+
+.three {
+    display: flex;
+    background-color: rgb(190, 91, 152);
+    width: 500px;
+    height: 500px;
+}
+
+.four {
+    display: flex;
+    background-color: rgb(91, 190, 136);
+    width: 500px;
+    height: 500px;
+}
+
+.five {
+    display: flex;
+    background-color: rgb(190, 164, 91);
+    width: 500px;
+    height: 500px;
+}
+
+.six {
+    display: flex;
+    background-color: rgb(190, 91, 185);
+    width: 500px;
+    height: 500px;
+}

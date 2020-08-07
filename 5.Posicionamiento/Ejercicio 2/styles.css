@@ -1,0 +1,37 @@
+.padre {
+    position: relative;
+    
+}
+
+.div1 {
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+    width: 300px;
+    height: 300px;
+    margin: 40px 40px 40px 40px;
+    padding: 30px 30px 30px 30px;
+    background-color: aqua;
+}
+
+.div2 {
+    position: relative;
+    top: 320px;
+    right: 150px;
+    width: 300px;
+    height: 300px;
+    margin: 40px 40px 40px 40px;
+    padding: 30px 30px 30px 30px;
+    background-color: rgb(31, 41, 41);
+}
+
+.div3 {
+    position: relative;
+    top: 240px;
+    left: 180px;
+    width: 300px;
+    height: 300px;
+    margin: 40px 40px 40px 40px;
+    padding: 30px 30px 30px 30px;
+    background-color: rgb(3, 112, 112);
+}

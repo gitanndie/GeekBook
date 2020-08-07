@@ -1,0 +1,75 @@
+/* ul.news {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+a {
+    color: red;
+}
+
+ul.news li.news__item {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 10px;
+}
+
+ul.news li.news__item+li.news__item {
+    border-top: 1px solid #ccc;
+}
+
+ul.news li.news__item:nth-child(2n) {
+    background: #eee;
+}
+
+ul.news li.news__item:last-child {
+    border-bottom: 1px solid #ccc;
+}
+
+ul.news li.news__item h2.news__item-title {
+    margin: 0 0 .25em;
+    font-size: 20px;
+} 
+ */
+/* ul.news li.news__item a.news__item-link {
+    color: green;
+} */
+
+
+/* Los links son verdes por la clase de los links
+y esto los hace ser mas especificos, se le da prioridad a la clase */
+
+main div.news {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-size: 14px;
+}
+
+a {
+    color: red;
+    
+}
+
+main div.news {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 5px;
+}
+
+main div#gris {
+    background-color: rgb(209, 206, 206);
+    padding: 5px;
+    padding-bottom: 2em;
+}
+
+main div.news {
+    border-top: 1px solid #ccc;
+}
+
+main div.news h2.news__item-title {
+    margin: 0 0 .25em;
+    font-size: 20px;
+}

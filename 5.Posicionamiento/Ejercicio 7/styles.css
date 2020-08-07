@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    position: relative;
+    top: 50px;
+    left: 500px;
+    background-color: rgb(224, 216, 224);
+    width: 86%;
+    max-width: 600px;
+}

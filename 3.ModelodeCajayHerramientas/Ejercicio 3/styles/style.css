@@ -1,0 +1,22 @@
+body {
+    background-color: cadetblue;
+}
+
+p {
+    color: cornsilk;
+    font-size: medium;
+    font-family: fantasy;
+}
+
+h1 {
+    text-align: center;
+    color: mistyrose;
+}
+
+.imagen {
+    display: block;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+
+}

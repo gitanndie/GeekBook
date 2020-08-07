@@ -1,0 +1,70 @@
+* {
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+body {
+    border: solid 8px;
+}
+
+.contenedor {
+    position: relative;
+    left: 300px;
+    margin-top: 106px;
+    max-width: 950px;
+}
+
+.contenedor .autor {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.contenedor .titular {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.contenedor .parrafos {
+    font-size: 18px;
+    margin-bottom: 27px;
+}
+
+.contenedor .enlace {
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: -16px;
+}
+
+.modal-contenido {
+    background-color: white;
+    color: black;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+}
+
+.modal-contenido a {
+    display: flex;
+    margin: 70px;
+}
+
+.modal {
+    background-color: rgba(58, 45, 45, 0.788);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#miModal:target {
+    opacity: 1;
+    pointer-events: auto;
+}

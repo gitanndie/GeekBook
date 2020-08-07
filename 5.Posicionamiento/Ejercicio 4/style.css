@@ -1,0 +1,15 @@
+.padre {
+    position: absolute;
+}
+
+.orange {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    /* margin: 40px 40px 40px 40px;
+    padding: 30px 30px 30px 30px; */
+    background-color: orange;
+}

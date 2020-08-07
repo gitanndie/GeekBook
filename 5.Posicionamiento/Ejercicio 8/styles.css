@@ -1,0 +1,12 @@
+.contenedor {
+    position: relative;
+    border: solid;
+
+}
+
+.imagen { 
+    position: relative;
+    top: -50px;
+    left: 400px;
+
+}

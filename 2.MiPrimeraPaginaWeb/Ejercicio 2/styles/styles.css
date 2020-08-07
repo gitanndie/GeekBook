@@ -1,0 +1,46 @@
+.text-link {
+    color: red;
+}
+
+.text-link:hover {
+    background-color: red;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(247, 237, 226);
+    margin: 5px;
+    padding: 15px;
+}
+
+.button {
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    display: inline-block;
+    margin-bottom: 1em;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.button--new {
+    background-color: rgb(35, 138, 9);
+}
+
+.button--rename {
+    background-color: rgb(14, 14, 139);
+}
+
+.button--delete {
+    background-color: rgb(126, 10, 10);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}

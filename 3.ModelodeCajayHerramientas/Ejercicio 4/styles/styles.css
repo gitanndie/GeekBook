@@ -1,0 +1,16 @@
+body {
+    background-color: orange;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+#imagen {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+/* La imagen se sobredimensiona al colocarla 200% */

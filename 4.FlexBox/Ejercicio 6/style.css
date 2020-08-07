@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header {
+    width: 100%;
+    background-color: burlywood;
+    padding: 5%;
+    text-align: center;
+}
+
+.main {
+    width: 100%;
+    height: 320px;
+    flex-basis: 500px;
+    flex-grow: 1;
+    background-color: rgb(135, 170, 222);
+    text-align: center;
+}
+.aside1 {
+    width: 10px;
+    flex-grow: 0.5;
+    background-color: chocolate;
+    text-align: center;
+}
+
+.aside2{
+    width: 10px;
+    flex-grow: 0.5;
+    background-color: crimson;
+    text-align: center;
+}
+.footer {
+    width: 100%;
+    background-color: rgb(78, 224, 58);
+    padding: 5%;
+    text-align: center;
+}

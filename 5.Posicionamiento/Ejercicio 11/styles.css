@@ -1,0 +1,21 @@
+
+footer {
+    text-align: center;
+}
+
+.footer {
+    display: inline-flex;
+}
+
+.footer a {
+    margin: 10px;
+}
+
+.coockies {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    left: 1490px;
+    background-color: aquamarine;
+}

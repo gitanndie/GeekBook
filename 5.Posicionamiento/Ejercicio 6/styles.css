@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    position: relative;
+    background-color: thistle;
+    width: 100%;
+    height: 900px;
+}
+
+.div1 {
+    position: relative;
+    background-color: tomato;
+    width: 100%;
+    height: 200px;
+}
+
+.div2 {
+    position: relative;
+    background-color: rgb(212, 157, 148);
+    width: 100%;
+    height: 200px;
+}
+
+.div3 {
+    position: relative;
+    background-color: rgb(201, 47, 20);
+    width: 100%;
+    height: 350px;
+}
+
+.div4 {
+    position: relative;
+    background-color: rgb(204, 140, 129);
+    width: 100%;
+    height: 200px;
+}
+
+.div5 {
+    background-color: rgb(216, 216, 38);
+    position: fixed;
+    height: 100px;
+    width: 100%;
+}

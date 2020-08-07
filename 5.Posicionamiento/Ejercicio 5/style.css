@@ -1,0 +1,35 @@
+.contenedor {
+    position: relative;
+}
+
+.div1 {
+    position: absolute;
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    margin: 40px 40px 40px 40px;
+    padding: 40px;
+    border: 2px;
+    background-color: yellow;
+
+}
+
+.div2 {
+    position: absolute;
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    margin: 40px 40px 40px 40px;
+    padding: 75px;
+    background-color: green;
+}
+
+.div3 {
+    position: absolute;
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    margin: 40px 40px 40px 40px;
+    padding: 20px;
+    background-color: blue;
+}

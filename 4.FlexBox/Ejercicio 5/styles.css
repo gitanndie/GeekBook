@@ -1,0 +1,19 @@
+
+header{
+    background-color: bisque;
+    min-height: 100px;
+    overflow: hidden;
+    /* height: expression(this.scrollHeight < 301? "300px": "auto"); */
+}
+main{
+    background-color: burlywood;
+    min-height: 600px;
+    overflow: hidden;
+    /* height: expression(this.scrollHeight < 301? "300px": "auto"); */
+}
+footer{
+    background-color: cadetblue;
+    min-height: 100px;
+    overflow: hidden;
+   /*  height: expression(this.scrollHeight < 301? "300px": "auto"); */
+}

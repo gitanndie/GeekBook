@@ -1,0 +1,44 @@
+@media (min-width: 320px) {
+    .box {
+        background: rgb(194, 194, 201);
+        margin: 20px 20px 20px 20px;
+    }
+    h1 {
+        size: bolder;
+        font-size: 32px;
+    }
+    p {
+        font-size: 18px;
+        line-break: 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    .box {
+        background: rgb(169, 169, 192);
+        margin: 30px 40px 30px 40px;
+    }
+    h1 {
+        size: bolder;
+        font-size: 28px;
+    }
+    p {
+        font-size: 16px;
+        line-break: 20px;
+    }
+}
+
+@media (min-width: 1140px) {
+    .box {
+        background: rgb(77, 77, 134);
+        margin: 190px auto 750px auto;
+    }
+    h1 {
+        size: bolder;
+        font-size: 42px;
+    }
+    p {
+        font-size: 24px;
+        line-break: 32px;
+    }
+}

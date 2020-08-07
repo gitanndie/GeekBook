@@ -1,0 +1,33 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    font-size: sans-serif;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted rgb(46, 41, 41);
+}
+.tooltip .tiptext {
+    visibility: hidden;
+    width: 400px;
+    height: 200px;
+    background-color:white;
+    color: black;
+    text-align: center;
+    border-radius: 3px;
+    padding: 6px 0;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.tooltip .tiptext::after {
+    content: "";
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+}
+.tooltip:hover .tiptext {
+    visibility: visible;
+}
