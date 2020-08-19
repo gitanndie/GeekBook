@@ -1,0 +1,21 @@
+* {
+    margin: 5px;
+    padding: 5px;
+}
+
+.name {
+    display: inline-flex;
+
+}
+
+#sour {
+    margin-left: 5px;
+}
+
+.birth p {
+    display: inline-flex;
+}
+
+button {
+    background-color: green;
+}
